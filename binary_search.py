@@ -17,6 +17,7 @@ def bisect_left(arr, x):
 
 
 print(bisect_left([4, 7, 7, 9, 10, 10, 10, 18],10))
+print(bisect_left([4, 7, 7, 9, 10, 10, 10, 18],18))
 
 def bisect_right(arr, x):
   lo = 0
